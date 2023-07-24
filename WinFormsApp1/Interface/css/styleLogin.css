@@ -1,0 +1,177 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+}
+
+ul li {
+   list-style-type: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-style: inherit;
+   font-weight: 400;
+}
+
+body {
+   background: #A286B2;
+
+
+}
+
+.container {
+
+   display: flex;
+   flex-direction: column;
+
+}
+
+.logo__block {
+   margin: 0 auto;
+
+   width: 508px;
+   height: 374px;
+   flex-shrink: 0;
+   border-radius: 10px;
+   border: 2px solid var(--primary-200, #BDA9C8);
+   background: #FFF;
+}
+
+.img__logo {
+   text-align: center;
+   margin: 45px 0px;
+}
+
+
+.img__login-block{
+   display: flex;
+   justify-content: center;
+   margin: 40px 0px;
+}
+
+.imglog{
+   height: 70px;
+}
+
+.text-field__input {
+   background: #F5F5F5;
+   color: #b84514;
+   width: 100%;
+   justify-content: center;
+}
+
+.input__login {
+   display: flex;
+   margin: 32px 65px 24px 65px;
+   padding: 8px 16px;
+   gap: 10px;
+   border-radius: 5px;
+   border: 1px solid var(--error, #FA3E3E);
+   background: #F5F5F5;
+
+}
+
+.input__password {
+   
+   display: flex;
+   margin: 32px 65px 24px 65px;
+   padding: 8px 16px;
+   gap: 10px;
+   border-radius: 5px;
+   border: 1px solid var(--error, #FA3E3E);
+   background: #F5F5F5;
+}
+
+a{
+   color: var(--text-on-dark-87, #F5F5F5);
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 22px; 
+   letter-spacing: 0.2px;
+   text-transform: uppercase;
+
+
+}
+.button__block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   width: 202px;
+   height: 48px;
+   background: #FF6839;
+   box-shadow: 0 5px 0px #b84514;
+   transition-property: all;
+   transition-duration: 0.5s;
+   border-radius: 15px;
+}
+
+.button__block:hover{
+   top: 2px;
+   box-shadow: 0 3px 0px rgb(112, 86, 126);
+   background-color: rgb(152, 107, 178);
+
+}
