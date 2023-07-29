@@ -10,7 +10,7 @@ namespace WinFormsApp1
         private async void Form1_Load(object sender, EventArgs e)
         {
             await web.EnsureCoreWebView2Async(null);
-            string path = Path.Combine(Environment.CurrentDirectory, "Interface", "index.html");
+            string path = Path.Combine(Environment.CurrentDirectory, "Interface", "indexMain.html");
             web.CoreWebView2.Navigate(path);
         }
     }
