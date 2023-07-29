@@ -1,0 +1,203 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-style: inherit;
+   font-weight: 400;
+}
+
+
+body {
+   min-height: 100vh;
+}
+
+.container {
+
+   display: flex;
+   flex-direction: column;
+   
+}
+.content {
+   background: #F5F5FA;
+
+}
+
+.header__block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+   background: var(--primary-300-main, #A286B2);
+}
+
+.row {
+
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.items-level__block {
+   margin: 40px 0px 48px 0px;
+   height: 70px;
+   width: 600px;
+   display: flex;
+   justify-content: space-between;
+   background: #F5F5FA;
+   align-items: center;
+
+}
+
+
+.level {
+   font-size: 45px;
+   font-family: Roboto;
+   color: #202020;
+}
+
+.level:hover {
+   color: rgba(105, 77, 121, 1);
+}
+
+.choice-theme__block {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.button__theme {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+   height: 50px;
+   background: #FF6839;
+   border-radius: 15px;
+   margin: 16px 0px;
+
+   color: #F5F5FA;
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 22px;
+   letter-spacing: 0.2px;
+   text-transform: uppercase;
+}
+
+
+.button__block {
+   display: flex;
+   justify-content: center;
+   margin: 35px 0px 55px 0px;
+}
+
+.button__start {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 202px;
+   height: 48px;
+   background: rgb(152, 107, 178);
+   box-shadow: 0 5px 0px rgb(112, 78, 131);
+   transition-property: all;
+   transition-duration: 0.5s;
+   border-radius: 15px;
+   color: var(--text-on-dark-87, #F5F5F5);
+
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 22px;
+   letter-spacing: 0.2px;
+   text-transform: uppercase;
+}
+
+.button__start:hover {
+   top: 2px;
+   box-shadow: 0 3px 0px #1e1722;
+   background-color: #2D2134;
+}
+
+.footer {
+   flex-shrink: 0;
+   background: #F5F5FA;
+
+
+}
