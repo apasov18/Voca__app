@@ -37,18 +37,6 @@
     <None Update="Interface\index3.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Interface\indexChoice.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Interface\indexLearn.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Interface\indexLogin.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Interface\indexMain.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="Interface\pictureMain\double_arrow.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
