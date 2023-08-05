@@ -51,7 +51,7 @@
             ClientSize = new Size(1482, 963);
             Controls.Add(web);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Voca";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)web).EndInit();
             ResumeLayout(false);

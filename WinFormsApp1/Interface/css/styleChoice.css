@@ -81,6 +81,8 @@ h6 {
 
 body {
    min-height: 100vh;
+   background: #F5F5FA;
+
 }
 
 .container {
@@ -137,6 +139,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-bottom: 140px;
 }
 
 
@@ -164,7 +167,7 @@ body {
 .button__block {
    display: flex;
    justify-content: center;
-   margin: 35px 0px 55px 0px;
+   margin: 15px 0px 15px 0px;
 }
 
 .button__start {
@@ -196,8 +199,10 @@ body {
 }
 
 .footer {
-   flex-shrink: 0;
+   position: fixed;
+   bottom: 0;
    background: #F5F5FA;
+   width: 100%;
 
 
 }
